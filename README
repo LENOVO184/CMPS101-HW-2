@@ -1,0 +1,16 @@
+Robert Mushkot
+rmushkot
+1543374
+README
+
+List.h is the header file for List.c
+List.c: List ADT doubly linked list used for storing integers. 
+
+ListClient.c: Client that tests functionality.
+
+Lex.c: Takes input file with strings and returns an output file in Lexicographic order using indirect sorting.
+
+Makefile: Compiles every .java file in the directory. 
+
+
+Lex.c takes an input and outfile on the command line. It then makes every line into a string and puts every string into an array. The array is then indirectly sorted using a doubly linked list storing the indices of the array. The sorted file is then printed to an output file.
